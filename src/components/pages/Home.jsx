@@ -1,6 +1,7 @@
 // Home.jsx
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo.png';
 
 const Home = () => {
   const [announcements, setAnnouncements] = useState([]);
@@ -100,7 +101,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-              <img src="https://inls.org/inls/images/logo-ilns.png" alt="INLS Boston Community" className="w-18 rounded-lg shadow-xl" />
+              <img src={logo} alt="INLS Boston Community" className="w-18 rounded-lg shadow-xl" />
             </div>
             <div className="px-8 md:w-1/2">
               <h2 className="text-3xl font-bold mb-6 text-gray-800">Welcome to INLS Boston</h2>

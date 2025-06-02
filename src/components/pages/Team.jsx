@@ -13,14 +13,14 @@ const Team = () => {
       setCurrentTeam([
         {
           id: 1,
-          name: "Prakash Sharma",
+          name: "Abi Gajurel (Baikuntha) ",
           position: "President",
-          bio: "Prakash is a poet and educator with over 15 years of experience promoting Nepali literature in the US. He has published three poetry collections and serves as a visiting lecturer at Boston University.",
-          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9-GuncdVxfs7qS5CuIGXIjDJzmovfrMzmFQ&s",
+          bio: "Abi is a poet and educator with over 15 years of experience promoting Nepali literature in the US. He has published three poetry collections and serves as a visiting lecturer at Boston University.",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfB7LS3QDx30Q7lt4LOPPm6A5fOQGw83hVtQ&s",
           social: {
-            email: "prakash@inlsboston.org",
-            twitter: "https://twitter.com/prakash",
-            linkedin: "https://linkedin.com/in/prakash"
+            email: "abi@inlsboston.org",
+            twitter: "https://twitter.com/abi",
+            linkedin: "https://linkedin.com/in/abi"
           }
         },
         {
