@@ -1,4 +1,18 @@
 import React, { useState, useEffect } from 'react';
+import  Abi from '../../assets/images/members/Abi Gajurel.jpg';
+import  Sushil_Nepal from '../../assets/images/members/Sushil Nepal.jpg';
+import  Bijay_Poudel from '../../assets/images/members/Bijay Sharma Paudel.jpg';
+import  Manoj_Acharya from '../../assets/images/members/Manoj Acharya2.jpg';
+import  Prakash_Khadka from '../../assets/images/members/Prakash Khadka.jpg';
+import  Manohar_Dhital from '../../assets/images/members/Manahor Dhital.jpg';
+import  Mamata_Karma from '../../assets/images/members/Mamata Karmacharya.jpg';
+import  Maheshwor_Panta from '../../assets/images/members/Maheshwor panta.jpg';
+import  Shanti_Joshi from '../../assets/images/members/Shanti Joshi.jpg';
+import  Balkrishna_Subedi from '../../assets/images/members/Bal Krishna Subedi.jpg';
+import  Jayaram_Regmi from '../../assets/images/members/Khagendra Regmi.jpg';
+import  Nabin_Upreti from '../../assets/images/members/Nabin Upreti.jpg';
+import  Deepa_Pun from '../../assets/images/members/Deepa rai poon.jpg';
+
 
 const Team = () => {
   const [currentTeam, setCurrentTeam] = useState([]);
@@ -16,7 +30,7 @@ const Team = () => {
           name: "Abi Gajurel (Baikuntha) ",
           position: "President",
           bio: "Abi is a poet and educator with over 15 years of experience promoting Nepali literature in the US. He has published three poetry collections and serves as a visiting lecturer at Boston University.",
-          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfB7LS3QDx30Q7lt4LOPPm6A5fOQGw83hVtQ&s",
+          image: Abi,
           social: {
             email: "abi@inlsboston.org",
             twitter: "https://twitter.com/abi",
@@ -88,92 +102,146 @@ const Team = () => {
       // Past Team Members by term
       setPastTeams([
         {
-          term: "2023-2024",
+          term: "2020-2022",
           members: [
             {
               id: 101,
-              name: "Bikash Thapa",
-              position: "President",
-              image: "/api/placeholder/300/300"
+              name: "दीपा राई पुन",
+              position: "अध्यक्ष",
+              image: Deepa_Pun,
             },
             {
               id: 102,
-              name: "Meena Gurung",
-              position: "Vice President",
-              image: "/api/placeholder/300/300"
+              name: "सुशील नेपाल",
+              position: "वरिष्ठ उपाध्यक्ष",
+              image: Sushil_Nepal,
             },
             {
               id: 103,
-              name: "Rajan KC",
-              position: "Secretary",
-              image: "/api/placeholder/300/300"
+              name: "विजय शर्मा पौडेल",
+              position: "उपाध्यक्ष",
+              image: Bijay_Poudel,
             },
             {
               id: 104,
-              name: "Prabha Sharma",
-              position: "Treasurer",
-              image: "/api/placeholder/300/300"
+              name: "मनोज आचार्य",
+              position: "उपाध्यक्ष",
+              image: Manoj_Acharya,
+            },
+            {
+              id: 105,
+              name: "अवी गजुरेल (बैकुण्ठ)",
+              position: "सचिव",
+              image: Abi,
+            },
+            {
+              id: 106,
+              name: "प्रकाश खड्का",
+              position: "सह सचिव",
+              image: Prakash_Khadka,
+            },
+            {
+              id: 107,
+              name: "मनोहर धिताल",
+              position: "सह सचिव",
+              image: Manohar_Dhital,
+            },
+            {
+              id: 108,
+              name: "ममता कर्माचार्य",
+              position: "कोषाध्यक्ष",
+              image: Mamata_Karma,
+            },
+            {
+              id: 108,
+              name: "महेश्वर पन्त",
+              position: "सदस्य",
+              image: Maheshwor_Panta,
+            },
+            {
+              id: 108,
+              name: "जयराम रेग्मी",
+              position: "सदस्य",
+              image: Jayaram_Regmi,
+            },
+            {
+              id: 108,
+              name: "शान्ति जोशी",
+              position: "सदस्य",
+              image: Shanti_Joshi,
+            },
+            {
+              id: 108,
+              name: "वालकृष्ण सुवेदी",
+              position: "सदस्य",
+              image: Balkrishna_Subedi,
+            },
+            {
+              id: 108,
+              name: "नवीन उप्रेती",
+              position: "सदस्य",
+              image: Nabin_Upreti,
             }
           ]
         },
-        {
-          term: "2021-2022",
-          members: [
-            {
-              id: 201,
-              name: "Shanta Bista",
-              position: "President",
-              image: "/api/placeholder/300/300"
-            },
-            {
-              id: 202,
-              name: "Binod Rai",
-              position: "Vice President",
-              image: "/api/placeholder/300/300"
-            },
-            {
-              id: 203,
-              name: "Kamala Thapa",
-              position: "Secretary",
-              image: "/api/placeholder/300/300"
-            },
-            {
-              id: 204,
-              name: "Nabin Poudel",
-              position: "Treasurer",
-              image: "/api/placeholder/300/300"
-            }
-          ]
-        },
-        {
-          term: "2019-2020",
-          members: [
-            {
-              id: 301,
-              name: "Anil Bhattarai",
-              position: "President",
-              image: "/api/placeholder/300/300"
-            },
-            {
-              id: 302,
-              name: "Sushma Karki",
-              position: "Vice President",
-              image: "/api/placeholder/300/300"
-            },
-            {
-              id: 303,
-              name: "Deepak Adhikari",
-              position: "Secretary",
-              image: "/api/placeholder/300/300"
-            },
-            {
-              id: 304,
-              name: "Kabita Sharma",
-              position: "Treasurer",
-              image: "/api/placeholder/300/300"
-            }
-          ]
-        }
+        // {
+        //   term: "2021-2022",
+        //   members: [
+        //     {
+        //       id: 201,
+        //       name: "Shanta Bista",
+        //       position: "President",
+        //       image: "/api/placeholder/300/300"
+        //     },
+        //     {
+        //       id: 202,
+        //       name: "Binod Rai",
+        //       position: "Vice President",
+        //       image: "/api/placeholder/300/300"
+        //     },
+        //     {
+        //       id: 203,
+        //       name: "Kamala Thapa",
+        //       position: "Secretary",
+        //       image: "/api/placeholder/300/300"
+        //     },
+        //     {
+        //       id: 204,
+        //       name: "Nabin Poudel",
+        //       position: "Treasurer",
+        //       image: "/api/placeholder/300/300"
+        //     }
+        //   ]
+        // },
+        // {
+        //   term: "2019-2020",
+        //   members: [
+        //     {
+        //       id: 301,
+        //       name: "Anil Bhattarai",
+        //       position: "President",
+        //       image: "/api/placeholder/300/300"
+        //     },
+        //     {
+        //       id: 302,
+        //       name: "Sushma Karki",
+        //       position: "Vice President",
+        //       image: "/api/placeholder/300/300"
+        //     },
+        //     {
+        //       id: 303,
+        //       name: "Deepak Adhikari",
+        //       position: "Secretary",
+        //       image: "/api/placeholder/300/300"
+        //     },
+        //     {
+        //       id: 304,
+        //       name: "Kabita Sharma",
+        //       position: "Treasurer",
+        //       image: "/api/placeholder/300/300"
+        //     }
+        //   ]
+        // }
       ]);
       
       setIsLoading(false);
