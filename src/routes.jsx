@@ -6,6 +6,7 @@ import Events from './components/pages/Events';
 import Gallery from './components/pages/Gallery';
 import Team from './components/pages/Team';
 import Contact from './components/pages/Contact';
+import FullMembers from './components/pages/FullMembers';
 
 const Routes = () => {
     return (
@@ -17,6 +18,7 @@ const Routes = () => {
                 <Route path="/gallery" component={Gallery} />
                 <Route path="/team" component={Team} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/full-members" element={FullMembers} />
             </Switch>
         </Router>
     );
