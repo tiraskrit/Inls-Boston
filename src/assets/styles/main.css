@@ -495,3 +495,25 @@ img, video, iframe {
     color: var(--bg-light);
   }
 }
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 40s linear infinite;
+}
+
+/* Add this to your global CSS file if progress bar still doesn't show */
+.progress-bar-container {
+  background-color: #334155 !important; /* slate-700 fallback */
+  height: 8px !important;
+  border-radius: 9999px !important;
+}
+
+.progress-bar-fill {
+  background-color: #ef4444 !important; /* red-500 fallback */
+  height: 100% !important;
+  transition: width 0.3s ease !important;
+}
