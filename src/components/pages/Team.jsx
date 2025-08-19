@@ -20,6 +20,10 @@ import  Bhim_prasad_Upadhyaya from '../../assets/images/members/Bhim Padhya.jpg'
 import  Guru_Adhikari from '../../assets/images/members/Guru Adhikari.jpg';
 import  Prakash_Khanal from '../../assets/images/members/Prakash Khadka.jpg';
 import  Sher_Bahadur_Bohara from '../../assets/images/members/Sher Bdr Bohara.jpg';
+import  Thani_Ratna_Kandel from '../../assets/images/members/Thani ratna Kandel.jpg';
+import  Ajit_Pokhrel from '../../assets/images/members/Ajit pokhrel.jpg';
+import  Dipak_Khatri from '../../assets/images/members/Dipak Khatri.jpg';
+import  Yama_Sharma_Poudel from '../../assets/images/members/Yem paudel.jpg';
 
 
 const Team = () => {
@@ -171,6 +175,84 @@ const Team = () => {
       // Past Team Members by term
       setPastTeams([
         {
+          term: "2022-2024",
+          members: [
+            {
+              id: 101,
+              name: "महेश्वर पन्त",
+              position: "अध्यक्ष",
+              image: Maheshwor_Panta,
+            },
+            {
+              id: 102,
+              name: "विजय शर्मा पौडेल",
+              position: "वरिष्ठ उपाध्यक्ष",
+              image: Bijay_Poudel,
+            },
+            {
+              id: 103,
+              name: "मनोज आचार्य",
+              position: "उपाध्यक्ष",
+              image: Manoj_Acharya,
+            },
+            {
+              id: 104,
+              name: "अवी गजुरेल",
+              position: "उपाध्यक्ष",
+              image: Abi,
+            },
+            {
+              id: 105,
+              name: "प्रकाश खड्का",
+              position: "सचिव",
+              image: Prakash_Khadka,
+            },
+            {
+              id: 106,
+              name: "प्रतीक रावल",
+              position: "सह सचिव",
+              image: Pratik_rawal,
+            },
+            {
+              id: 108,
+              name: "थानी रत्न कंडेल",
+              position: "कोषाध्यक्ष",
+              image: Thani_Ratna_Kandel,
+            },
+            {
+              id: 108,
+              name: "अजित पोख्रेल",
+              position: "सदस्य",
+              image: Ajit_Pokhrel,
+            },
+            {
+              id: 108,
+              name: "नवीन उप्रेती",
+              position: "सदस्य",
+              image: Nabin_Upreti,
+            },
+            {
+              id: 108,
+              name: "भीमप्रसाद उपाध्याय",
+              position: "सदस्य",
+              image: Bhim_prasad_Upadhyaya,
+            },
+            {
+              id: 108,
+              name: "दिपक खत्री",
+              position: "सदस्य",
+              image: Dipak_Khatri,
+            },
+            {
+              id: 108,
+              name: "नवीन उप्रेती",
+              position: "सदस्य",
+              image: Nabin_Upreti,
+            }
+          ]
+        },
+
+        {
           term: "2020-2022",
           members: [
             {
@@ -253,91 +335,15 @@ const Team = () => {
             }
           ]
         },
-        {
-          term: "2022-2024",
-          members: [
-            {
-              id: 101,
-              name: "महेश्वर पन्त",
-              position: "अध्यक्ष",
-              image: Deepa_Pun,
-            },
-            {
-              id: 102,
-              name: "विजय शर्मा पौडेल",
-              position: "वरिष्ठ उपाध्यक्ष",
-              image: Sushil_Nepal,
-            },
-            {
-              id: 103,
-              name: "मनोज आचार्य",
-              position: "उपाध्यक्ष",
-              image: Bijay_Poudel,
-            },
-            {
-              id: 104,
-              name: "अवी गजुरेल",
-              position: "उपाध्यक्ष",
-              image: Manoj_Acharya,
-            },
-            {
-              id: 105,
-              name: "प्रकाश खड्का",
-              position: "सचिव",
-              image: Abi,
-            },
-            {
-              id: 106,
-              name: "प्रतीक रावल",
-              position: "सह सचिव",
-              image: Prakash_Khadka,
-            },
-            {
-              id: 108,
-              name: "थानी रत्न कंडेल",
-              position: "कोषाध्यक्ष",
-              image: Mamata_Karma,
-            },
-            {
-              id: 108,
-              name: "अजित पोख्रेल",
-              position: "सदस्य",
-              image: Maheshwor_Panta,
-            },
-            {
-              id: 108,
-              name: "नवीन उप्रेती",
-              position: "सदस्य",
-              image: Jayaram_Regmi,
-            },
-            {
-              id: 108,
-              name: "भीमप्रसाद उपाध्याय",
-              position: "सदस्य",
-              image: Shanti_Joshi,
-            },
-            {
-              id: 108,
-              name: "दिपक खत्री",
-              position: "सदस्य",
-              image: Balkrishna_Subedi,
-            },
-            {
-              id: 108,
-              name: "नवीन उप्रेती",
-              position: "सदस्य",
-              image: Nabin_Upreti,
-            }
-          ]
-        },
+        
         {
           term: "2018-2020",
           members: [
             {
               id: 101,
-              name: "दीपा राई पुन",
+              name: "यम शर्मा पौडेल",
               position: "अध्यक्ष",
-              image: Deepa_Pun,
+              image: Yama_Sharma_Poudel,
             },
             {
               id: 102,
