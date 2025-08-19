@@ -12,6 +12,14 @@ import  Balkrishna_Subedi from '../../assets/images/members/Bal Krishna Subedi.j
 import  Jayaram_Regmi from '../../assets/images/members/Khagendra Regmi.jpg';
 import  Nabin_Upreti from '../../assets/images/members/Nabin Upreti.jpg';
 import  Deepa_Pun from '../../assets/images/members/Deepa rai poon.jpg';
+import  Pratik_rawal from '../../assets/images/members/Pratik Rawal.jpg';
+import  Dipendra_Pokharel from '../../assets/images/members/Dipendra Pokhrel.jpg';
+import  Sujan_Kharel from '../../assets/images/members/Sujan Kharel.jpg';
+import  Ramesh_Parajuli from '../../assets/images/members/Ramesh Parajuli.jpg';
+import  Bhim_prasad_Upadhyaya from '../../assets/images/members/Bhim Padhya.jpg';
+import  Guru_Adhikari from '../../assets/images/members/Guru Adhikari.jpg';
+import  Prakash_Khanal from '../../assets/images/members/Prakash Khadka.jpg';
+import  Sher_Bahadur_Bohara from '../../assets/images/members/Sher Bdr Bohara.jpg';
 
 
 const Team = () => {
@@ -19,6 +27,7 @@ const Team = () => {
   const [pastTeams, setPastTeams] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('current');
+  const [selectedTerm, setSelectedTerm] = useState('2022-2024');
 
   useEffect(() => {
     // Simulating API calls
@@ -27,9 +36,9 @@ const Team = () => {
       setCurrentTeam([
         {
           id: 1,
-          name: "Abi Gajurel (Baikuntha) ",
-          position: "President",
-          bio: "Abi is a poet and educator with over 15 years of experience promoting Nepali literature in the US. He has published three poetry collections and serves as a visiting lecturer at Boston University.",
+          name: "अवी गजुरेल",
+          position: "अध्यक्ष",
+          bio: "Abi is a poet and educator with over 15 years of experience promoting Nepali literature in the US. He has published three poetry collections and is a regular contributor to various literary journals.",
           image: Abi,
           social: {
             email: "abi@inlsboston.org",
@@ -39,10 +48,10 @@ const Team = () => {
         },
         {
           id: 2,
-          name: "Sarita Adhikari",
-          position: "Vice President",
-          bio: "Sarita is a novelist and literary critic. She has been with INLS Boston since its founding and has played a key role in organizing the annual literary festival.",
-          image: "https://media.licdn.com/dms/image/v2/C5603AQEATnoeSlx0zQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1642927314149?e=2147483647&v=beta&t=yc2RSCySv5jLMQEJvpeMvC0k4efi8iiC6k_80s2Gt-A",
+          name: "प्रकाश खड्का",
+          position: "वरिष्ठ उपाध्यक्ष",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Prakash_Khadka,
           social: {
             email: "sarita@inlsboston.org",
             twitter: "https://twitter.com/sarita",
@@ -51,10 +60,10 @@ const Team = () => {
         },
         {
           id: 3,
-          name: "Ramesh Poudel",
-          position: "Secretary",
-          bio: "Ramesh is an accomplished translator and short story writer. He works as a language instructor at Harvard University and has translated several important English works into Nepali.",
-          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQXraXJSAcwvbEFc8Kzd9rvYT5G81s3sHSw&s",
+          name: "नवीन उप्रेती",
+          position: "उपाध्यक्ष",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Nabin_Upreti,
           social: {
             email: "ramesh@inlsboston.org",
             twitter: "https://twitter.com/ramesh",
@@ -63,10 +72,10 @@ const Team = () => {
         },
         {
           id: 4,
-          name: "Sunita Rai",
-          position: "Treasurer",
-          bio: "Sunita is a poet and financial analyst. She manages INLS Boston's finances and fundraising efforts while also contributing to the organization's literary magazine.",
-          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1kLs3ApZqna2pwY5SMRomA3--8KwCqrXAgA&s",
+          name: "प्रतीक रावल",
+          position: "सचिव",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Pratik_rawal,
           social: {
             email: "sunita@inlsboston.org",
             twitter: "https://twitter.com/sunita",
@@ -75,10 +84,10 @@ const Team = () => {
         },
         {
           id: 5,
-          name: "Dipesh Gurung",
-          position: "Media Coordinator",
-          bio: "Dipesh is a journalist and documentary filmmaker. He manages INLS Boston's social media presence and produces multimedia content for the organization.",
-          image: "https://media.licdn.com/dms/image/v2/D4D03AQEPZIt3OvszSw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707180467903?e=2147483647&v=beta&t=61ICWx_u3HYdLTnEAuIlg7_BpTfaMwP0xEMn9sJwiw4",
+          name: "दिपेन्द्र पोखरेल",
+          position: "सह सचिव",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Dipendra_Pokharel,
           social: {
             email: "dipesh@inlsboston.org",
             twitter: "https://twitter.com/dipesh",
@@ -87,12 +96,72 @@ const Team = () => {
         },
         {
           id: 6,
-          name: "Anita Tamang",
-          position: "Event Coordinator",
-          bio: "Anita is a cultural program organizer and poet. She coordinates INLS Boston's events and serves as a liaison with other cultural organizations in New England.",
-          image: "https://cdnbbsr.s3waas.gov.in/s3ec05ddf9029977a61241841edeae15e9/uploads/2024/08/2024081316.jpeg",
+          name: "सुजन खरेल",
+          position: "कोषाध्यक्ष",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Sujan_Kharel,
           social: {
             email: "anita@inlsboston.org",
+            twitter: "https://twitter.com/anita",
+            linkedin: "https://linkedin.com/in/anita"
+          }
+        },
+        {
+          id: 7,
+          name: "रमेश पराजुली",
+          position: "सदस्य",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Ramesh_Parajuli,
+          social: {
+            email: "member@inlsboston.org",
+            twitter: "https://twitter.com/anita",
+            linkedin: "https://linkedin.com/in/anita"
+          }
+        },
+        {
+          id: 8,
+          name: "भीमप्रसाद उपाध्याय",
+          position: "सदस्य",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Bhim_prasad_Upadhyaya,
+          social: {
+            email: "member@inlsboston.org",
+            twitter: "https://twitter.com/anita",
+            linkedin: "https://linkedin.com/in/anita"
+          }
+        },
+          {
+          id: 9,
+          name: "गुरु अधिकारी",
+          position: "सदस्य",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Guru_Adhikari,
+          social: {
+            email: "member@inlsboston.org",
+            twitter: "https://twitter.com/anita",
+            linkedin: "https://linkedin.com/in/anita"
+          }
+        },
+        {
+          id: 10,
+          name: "प्रकाश खनाल",
+          position: "सदस्य",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Prakash_Khanal,
+          social: {
+            email: "member@inlsboston.org",
+            twitter: "https://twitter.com/anita",
+            linkedin: "https://linkedin.com/in/anita"
+          }
+        },
+        {
+          id: 11,
+          name: "शेर वहादुर बोहरा",
+          position: "सदस्य",
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          image: Sher_Bahadur_Bohara,
+          social: {
+            email: "member@inlsboston.org",
             twitter: "https://twitter.com/anita",
             linkedin: "https://linkedin.com/in/anita"
           }
@@ -184,64 +253,166 @@ const Team = () => {
             }
           ]
         },
-        // {
-        //   term: "2021-2022",
-        //   members: [
-        //     {
-        //       id: 201,
-        //       name: "Shanta Bista",
-        //       position: "President",
-        //       image: "/api/placeholder/300/300"
-        //     },
-        //     {
-        //       id: 202,
-        //       name: "Binod Rai",
-        //       position: "Vice President",
-        //       image: "/api/placeholder/300/300"
-        //     },
-        //     {
-        //       id: 203,
-        //       name: "Kamala Thapa",
-        //       position: "Secretary",
-        //       image: "/api/placeholder/300/300"
-        //     },
-        //     {
-        //       id: 204,
-        //       name: "Nabin Poudel",
-        //       position: "Treasurer",
-        //       image: "/api/placeholder/300/300"
-        //     }
-        //   ]
-        // },
-        // {
-        //   term: "2019-2020",
-        //   members: [
-        //     {
-        //       id: 301,
-        //       name: "Anil Bhattarai",
-        //       position: "President",
-        //       image: "/api/placeholder/300/300"
-        //     },
-        //     {
-        //       id: 302,
-        //       name: "Sushma Karki",
-        //       position: "Vice President",
-        //       image: "/api/placeholder/300/300"
-        //     },
-        //     {
-        //       id: 303,
-        //       name: "Deepak Adhikari",
-        //       position: "Secretary",
-        //       image: "/api/placeholder/300/300"
-        //     },
-        //     {
-        //       id: 304,
-        //       name: "Kabita Sharma",
-        //       position: "Treasurer",
-        //       image: "/api/placeholder/300/300"
-        //     }
-        //   ]
-        // }
+        {
+          term: "2022-2024",
+          members: [
+            {
+              id: 101,
+              name: "महेश्वर पन्त",
+              position: "अध्यक्ष",
+              image: Deepa_Pun,
+            },
+            {
+              id: 102,
+              name: "विजय शर्मा पौडेल",
+              position: "वरिष्ठ उपाध्यक्ष",
+              image: Sushil_Nepal,
+            },
+            {
+              id: 103,
+              name: "मनोज आचार्य",
+              position: "उपाध्यक्ष",
+              image: Bijay_Poudel,
+            },
+            {
+              id: 104,
+              name: "अवी गजुरेल",
+              position: "उपाध्यक्ष",
+              image: Manoj_Acharya,
+            },
+            {
+              id: 105,
+              name: "प्रकाश खड्का",
+              position: "सचिव",
+              image: Abi,
+            },
+            {
+              id: 106,
+              name: "प्रतीक रावल",
+              position: "सह सचिव",
+              image: Prakash_Khadka,
+            },
+            {
+              id: 108,
+              name: "थानी रत्न कंडेल",
+              position: "कोषाध्यक्ष",
+              image: Mamata_Karma,
+            },
+            {
+              id: 108,
+              name: "अजित पोख्रेल",
+              position: "सदस्य",
+              image: Maheshwor_Panta,
+            },
+            {
+              id: 108,
+              name: "नवीन उप्रेती",
+              position: "सदस्य",
+              image: Jayaram_Regmi,
+            },
+            {
+              id: 108,
+              name: "भीमप्रसाद उपाध्याय",
+              position: "सदस्य",
+              image: Shanti_Joshi,
+            },
+            {
+              id: 108,
+              name: "दिपक खत्री",
+              position: "सदस्य",
+              image: Balkrishna_Subedi,
+            },
+            {
+              id: 108,
+              name: "नवीन उप्रेती",
+              position: "सदस्य",
+              image: Nabin_Upreti,
+            }
+          ]
+        },
+        {
+          term: "2018-2020",
+          members: [
+            {
+              id: 101,
+              name: "दीपा राई पुन",
+              position: "अध्यक्ष",
+              image: Deepa_Pun,
+            },
+            {
+              id: 102,
+              name: "सुशील नेपाल",
+              position: "वरिष्ठ उपाध्यक्ष",
+              image: Sushil_Nepal,
+            },
+            {
+              id: 103,
+              name: "विजय शर्मा पौडेल",
+              position: "उपाध्यक्ष",
+              image: Bijay_Poudel,
+            },
+            {
+              id: 104,
+              name: "मनोज आचार्य",
+              position: "उपाध्यक्ष",
+              image: Manoj_Acharya,
+            },
+            {
+              id: 105,
+              name: "अवी गजुरेल (बैकुण्ठ)",
+              position: "सचिव",
+              image: Abi,
+            },
+            {
+              id: 106,
+              name: "प्रकाश खड्का",
+              position: "सह सचिव",
+              image: Prakash_Khadka,
+            },
+            {
+              id: 107,
+              name: "मनोहर धिताल",
+              position: "सह सचिव",
+              image: Manohar_Dhital,
+            },
+            {
+              id: 108,
+              name: "ममता कर्माचार्य",
+              position: "कोषाध्यक्ष",
+              image: Mamata_Karma,
+            },
+            {
+              id: 108,
+              name: "महेश्वर पन्त",
+              position: "सदस्य",
+              image: Maheshwor_Panta,
+            },
+            {
+              id: 108,
+              name: "जयराम रेग्मी",
+              position: "सदस्य",
+              image: Jayaram_Regmi,
+            },
+            {
+              id: 108,
+              name: "शान्ति जोशी",
+              position: "सदस्य",
+              image: Shanti_Joshi,
+            },
+            {
+              id: 108,
+              name: "वालकृष्ण सुवेदी",
+              position: "सदस्य",
+              image: Balkrishna_Subedi,
+            },
+            {
+              id: 108,
+              name: "नवीन उप्रेती",
+              position: "सदस्य",
+              image: Nabin_Upreti,
+            }
+          ]
+        },
       ]);
       
       setIsLoading(false);
@@ -255,6 +426,8 @@ const Team = () => {
       </div>
     );
   }
+
+  const selectedTeam = pastTeams.find(team => team.term === selectedTerm);
 
   return (
     <div className="py-12 bg-gray-50">
@@ -296,7 +469,7 @@ const Team = () => {
                 <div key={member.id} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-xl">
                   <div className="p-6 text-center">
                     <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                      <img src={member.image} alt={member.name} className= "w-24 object-cover" />
+                      <img src={member.image} alt={member.name} className="w-24 object-cover" />
                     </div>
                     <h2 className="text-xl font-bold text-gray-800">{member.name}</h2>
                     <p className="text-red-700 font-semibold mb-4">{member.position}</p>
@@ -338,12 +511,35 @@ const Team = () => {
         
         {/* Past Teams */}
         {activeTab === 'past' && (
-          <div className="space-y-16">
-            {pastTeams.map((team, index) => (
-              <div key={index}>
-                <h2 className="text-2xl font-bold mb-8 text-gray-800 border-b pb-4">{team.term} Committee</h2>
+          <div>
+            {/* Term Dropdown */}
+            <div className="flex justify-center mb-8">
+              <div className="relative">
+                <select
+                  value={selectedTerm}
+                  onChange={(e) => setSelectedTerm(e.target.value)}
+                  className="appearance-none bg-white border border-gray-300 rounded-lg px-4 py-2 pr-8 text-lg font-medium text-gray-700 hover:border-red-700 focus:outline-none focus:ring-2 focus:ring-red-700 focus:border-red-700"
+                >
+                  {pastTeams.map((team) => (
+                    <option key={team.term} value={team.term}>
+                      {team.term} Committee
+                    </option>
+                  ))}
+                </select>
+                <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                  <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            {/* Selected Team Display */}
+            {selectedTeam && (
+              <div>
+                <h2 className="text-2xl font-bold mb-8 text-gray-800 text-center border-b pb-4">{selectedTeam.term} Committee</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                  {team.members.map((member) => (
+                  {selectedTeam.members.map((member) => (
                     <div key={member.id} className="bg-white rounded-lg shadow-md p-6 text-center transition-transform duration-300 hover:shadow-xl hover:-translate-y-1">
                       <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden">
                         <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
@@ -354,7 +550,7 @@ const Team = () => {
                   ))}
                 </div>
               </div>
-            ))}
+            )}
           </div>
         )}
       </div>
