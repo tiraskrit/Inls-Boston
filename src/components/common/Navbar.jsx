@@ -30,7 +30,7 @@ const Navbar = () => {
     { path: '/gallery', label: 'Gallery' },
     { path: '/team', label: 'Team' },
     { path: '/contact', label: 'Contact' },
-    { path: '/full-members', label: 'Full Members' } 
+    { path: '/full-members', label: 'Life Members' } 
   ];
 
   return (

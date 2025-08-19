@@ -78,7 +78,7 @@ export default function FullMembers() {
 
         {/* Header */}
         <header className="text-center py-6">
-          <h1 className="text-3xl font-bold text-red-700 mb-2">Full Members</h1>
+          <h1 className="text-3xl font-bold text-red-700 mb-2">Life Members</h1>
           <p className="text-gray-200">Meet our distinguished team members</p>
           <p className="text-gray-600 text-sm mt-2">
             Showing {currentIndex + 1} of {memberImages.length} members
